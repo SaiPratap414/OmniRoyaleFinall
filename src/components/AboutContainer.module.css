@@ -94,7 +94,7 @@
 }
 .aboutInner {
   flex: 1;
-  background: linear-gradient(0.51deg, #8378f3, rgba(131, 120, 243, 0)), #000;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 80%, #312e4b 100%);
   justify-content: center;
 }
 .about {
