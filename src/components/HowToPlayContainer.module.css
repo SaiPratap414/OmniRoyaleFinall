@@ -1,0 +1,141 @@
+.tagline {
+  width: 53px;
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: none;
+}
+.howToPlay2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.2)), #e6e6e6;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content1 {
+  align-self: stretch;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-formula-condensed);
+}
+.content,
+.content1,
+.sectionTitle {
+  display: flex;
+  flex-direction: column;
+}
+.sectionTitle {
+  width: 1388px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.content {
+  width: 1387px;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+}
+.frameChild,
+.frameDiv,
+.frameInner,
+.frameItem {
+  width: 543px;
+  margin: 0 !important;
+  position: absolute;
+  top: 27.2px;
+  left: 27.4px;
+  z-index: 4;
+}
+.frameDiv,
+.frameInner,
+.frameItem {
+  top: 187.2px;
+  z-index: 5;
+}
+.frameDiv,
+.frameInner {
+  top: 324.2px;
+  z-index: 6;
+}
+.frameDiv {
+  top: 490.2px;
+  z-index: 7;
+}
+.frameParent,
+.howToPlayInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  position: relative;
+  gap: var(--gap-2xs);
+}
+.howToPlayInner {
+  width: 1274px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-hubot-sans);
+}
+.heading {
+  position: relative;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.headingWrapper {
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-17xl);
+  background-image: url(/public/frame-3401@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frameWrapper,
+.howToPlayChild {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.howToPlayChild {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-lavender);
+  font-family: var(--font-formula-condensed);
+}
+.howToPlay,
+.howToPlay1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.howToPlay1 {
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-101xl) var(--padding-45xl);
+  gap: var(--gap-21xl);
+  background-image: url(/public/how-to-play@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.howToPlay {
+  background-color: var(--color-gray-200);
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--text-regular-semi-bold-size);
+  color: var(--black);
+  font-family: var(--text-regular-semi-bold);
+}
