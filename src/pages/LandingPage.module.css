@@ -1,0 +1,137 @@
+.group981,
+.link {
+  position: relative;
+}
+.group981 {
+  width: 167px;
+  height: 104px;
+  object-fit: cover;
+}
+.link {
+  line-height: 150%;
+  font-weight: 600;
+}
+.column,
+.column1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.column1 {
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.column {
+  flex-direction: column;
+}
+.columnWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.mingcutetelegramFillIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mingcutetelegramFillParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.links {
+  width: 156px;
+  justify-content: flex-end;
+}
+.container,
+.group981Parent,
+.links,
+.navbar2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.group981Parent {
+  width: 1374px;
+  justify-content: flex-start;
+  gap: 350px;
+}
+.container,
+.navbar2 {
+  width: 1372px;
+  overflow: hidden;
+  justify-content: center;
+}
+.navbar2 {
+  width: 1440px;
+  flex-direction: column;
+  padding: 0 var(--padding-45xl) 0 88px;
+  box-sizing: border-box;
+}
+.divider {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1px;
+}
+.link4,
+.text {
+  position: relative;
+  line-height: 150%;
+}
+.link4 {
+  text-decoration: underline;
+}
+.credits,
+.navbar1 {
+  display: none;
+  align-items: center;
+}
+.credits {
+  width: 1312px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  font-size: var(--text-small-link-size);
+  color: var(--color-white);
+  font-family: var(--text-regular-semi-bold);
+}
+.navbar1 {
+  width: 1440px;
+  overflow: hidden;
+  padding: var(--padding-xs) var(--padding-45xl);
+  box-sizing: border-box;
+}
+.landingPage,
+.navbar,
+.navbar1 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.navbar {
+  width: 1440px;
+  background: linear-gradient(180deg, #0b0a0a, rgba(9, 8, 8, 0));
+  display: none;
+  align-items: flex-start;
+}
+.landingPage {
+  position: relative;
+  background: linear-gradient(180deg, transparent 67%, #000);
+  width: 100%;
+  height: 4280px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: var(--text-regular-semi-bold-size);
+  color: var(--color-gray-100);
+  font-family: var(--font-hubot-sans);
+}
+body {
+  background-color: black;
+}

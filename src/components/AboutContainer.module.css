@@ -1,0 +1,108 @@
+.maskGroupIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 841.6px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.maskGroupWrapper {
+  width: 875.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.frameChild {
+  width: 478.4px;
+  position: relative;
+  height: 471px;
+  z-index: 0;
+}
+.heading {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.2)), #e6e6e6;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.omniRoyaleIs {
+  margin: 0;
+}
+.omniRoyaleIsContainer {
+  width: 429.1px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 120%;
+  font-family: var(--font-hubot-sans);
+  display: inline-block;
+}
+.headingParent {
+  width: 433px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 157.9px);
+  right: 22.7px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.frameWrapper,
+.headingParent,
+.vectorParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.frameWrapper {
+  width: 474.2px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 235.6px);
+  right: 68.3px;
+  z-index: 1;
+}
+.about,
+.aboutInner,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.frameParent {
+  width: 1449px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.about,
+.aboutInner {
+  align-self: stretch;
+  overflow: hidden;
+  align-items: center;
+}
+.aboutInner {
+  flex: 1;
+  background: linear-gradient(0.51deg, #8378f3, rgba(131, 120, 243, 0)), #000;
+  justify-content: center;
+}
+.about {
+  height: 840px;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-formula-condensed);
+}

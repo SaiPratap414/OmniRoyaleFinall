@@ -1,0 +1,278 @@
+.heading {
+  position: relative;
+  line-height: 120%;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.2)), #e6e6e6;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.column {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sectionTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameChild {
+  width: 389.9px;
+  position: relative;
+  height: 326.3px;
+  object-fit: contain;
+  z-index: 0;
+}
+.vectorIcon {
+  width: 55px;
+  position: relative;
+  height: 52.3px;
+}
+.heading1 {
+  position: relative;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.vectorGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.text {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-regular-semi-bold-size);
+  line-height: 120%;
+  font-family: var(--font-hubot-sans);
+}
+.frameContainer,
+.vectorParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameContainer {
+  width: 298px;
+  margin: 0 !important;
+  position: absolute;
+  top: 57.6px;
+  left: 55.8px;
+  height: 240px;
+  justify-content: space-between;
+  z-index: 1;
+}
+.vectorParent {
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.frameItem {
+  width: 406.8px;
+  position: relative;
+  height: 297.5px;
+  object-fit: cover;
+  z-index: 0;
+}
+.gameIconsswordClash {
+  width: 60px;
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heading2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+.frameDiv,
+.gameIconsswordClashParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.gameIconsswordClashParent {
+  align-self: stretch;
+  gap: var(--gap-xs);
+}
+.frameDiv {
+  width: 334px;
+  margin: 0 !important;
+  position: absolute;
+  top: 28.8px;
+  left: 38.3px;
+  height: 240px;
+  gap: var(--gap-31xl);
+  z-index: 1;
+}
+.frameInner {
+  width: 389.9px;
+  position: relative;
+  height: 326.3px;
+  object-fit: cover;
+  z-index: 0;
+}
+.gameIconsabstract053Parent {
+  width: 293px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.battleAcrossMultiple {
+  margin: 0;
+}
+.text2 {
+  width: 298.1px;
+  position: relative;
+  font-size: var(--text-regular-semi-bold-size);
+  line-height: 120%;
+  font-family: var(--font-hubot-sans);
+  display: inline-block;
+}
+.frameGroup,
+.frameParent1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  width: 293px;
+  margin: 0 !important;
+  position: absolute;
+  top: 57.6px;
+  left: 48.4px;
+  height: 240px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-30xl);
+  z-index: 1;
+}
+.frameGroup {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-xs);
+}
+.frameParent3 {
+  width: 307px;
+  margin: 0 !important;
+  position: absolute;
+  top: 36.1px;
+  left: 58px;
+  height: 240px;
+  justify-content: space-between;
+  z-index: 1;
+}
+.frameParent3,
+.frameParent4,
+.gameIconscrownedSkullParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.gameIconscrownedSkullParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.frameParent4 {
+  width: 334px;
+  margin: 0 !important;
+  position: absolute;
+  top: 28.7px;
+  left: 38px;
+  height: 240px;
+  justify-content: space-between;
+  z-index: 1;
+}
+.gameIconsdropWeapon,
+.heading6 {
+  position: relative;
+  height: 55px;
+  flex-shrink: 0;
+}
+.gameIconsdropWeapon {
+  width: 55px;
+  overflow: hidden;
+}
+.heading6 {
+  align-self: stretch;
+  line-height: 130%;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.gameIconsdropWeaponParent {
+  width: 306px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.text5 {
+  width: 331.1px;
+  position: relative;
+  font-size: var(--text-regular-semi-bold-size);
+  line-height: 120%;
+  font-family: var(--font-hubot-sans);
+  display: inline-block;
+}
+.frameParent2,
+.frameParent5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent5 {
+  width: 306px;
+  margin: 0 !important;
+  position: absolute;
+  top: 28.7px;
+  left: 31.8px;
+  height: 254px;
+  flex-direction: column;
+  gap: var(--gap-24xl);
+  z-index: 1;
+}
+.frameParent2 {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.frameParent {
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  font-size: var(--font-size-24xl);
+}
+.features,
+.features1,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.features1 {
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-101xl) var(--padding-45xl);
+  gap: var(--gap-21xl);
+}
+.features {
+  background-color: var(--color-gray-200);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-formula-condensed);
+}

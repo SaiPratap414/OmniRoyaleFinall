@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
+@font-face {
+  font-family: "Hubot-Sans";
+  src: url("/public/HubotSans-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Hubot-Sans";
+  src: url("/public/HubotSans-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Hubot-Sans";
+  src: url("/public/HubotSans-Bold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "VCR OSD Mono";
+  src: url("/public/VCR_OSD_MONO_1.001.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Formula Condensed";
+  src: url("/public/FormulaCondensed-Bold.otf");
+  font-weight: 800;
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-hubot-sans: Hubot-Sans;
+  --font-formula-condensed: "Formula Condensed";
+  --headings-typography-size-4: "DM Sans";
+  --text-regular-semi-bold: Roboto;
+  --font-vcr-osd-mono: "VCR OSD Mono";
+
+  /* font sizes */
+  --text-small-link-size: 14px;
+  --font-size-29xl: 48px;
+  --font-size-41xl: 60px;
+  --headings-typography-size-4-size: 22px;
+  --font-size-13xl: 32px;
+  --text-regular-semi-bold-size: 16px;
+  --font-size-24xl: 43px;
+  --font-size-xl: 20px;
+  --font-size-53xl: 72px;
+
+  /* Colors */
+  --color-dimgray: #6e6e6e;
+  --color-tomato: #fb5d2c;
+  --color-lavender: #dee0ff;
+  --color-gray-100: #fdfdfe;
+  --color-gray-200: #010101;
+  --color-darkgray: #9c9d9d;
+  --color-mediumslateblue: #8378f3;
+  --black: #000;
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-13xl: 32px;
+  --gap-5xl: 24px;
+  --gap-21xl: 40px;
+  --gap-2xs: 11px;
+  --gap-xs: 12px;
+  --gap-base: 16px;
+  --gap-9xl: 28px;
+  --gap-24xl: 43px;
+  --gap-7xl: 26px;
+  --gap-30xl: 49px;
+  --gap-31xl: 50px;
+  --gap-167xl: 186px;
+  --gap-255xl: 274px;
+
+  /* Paddings */
+  --padding-21xl: 40px;
+  --padding-3xs: 10px;
+  --padding-61xl: 80px;
+  --padding-41xl: 60px;
+  --padding-5xl: 24px;
+  --padding-17xl: 36px;
+  --padding-101xl: 120px;
+  --padding-45xl: 64px;
+  --padding-xs: 12px;
+  --padding-16xl: 35px;
+  --padding-3xl: 22px;
+  --padding-mid: 17px;
+  --padding-57xl: 76px;
+
+  /* Border radiuses */
+  --br-xs: 12px;
+}
