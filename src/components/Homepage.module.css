@@ -144,15 +144,21 @@
 .headingWrapper {
   border-radius: var(--br-xs);
   display: flex;
-  
   align-items: center;
   justify-content: center;
   padding: var(--padding-xs) var(--padding-17xl);
   background-image: url(/public/frame-340@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;  
+  background-position: top;
+  transition: background-image 0.5s ease-in-out; /* Smooth transition for the background change */
 }
+
+/* Add this for the hover effect */
+.headingWrapper:hover {
+  background-image: linear-gradient(to bottom, rgba(251, 93, 44, 1), #2D4DCE);
+}
+
 
 .frameContainer,
 .frameWrapper {

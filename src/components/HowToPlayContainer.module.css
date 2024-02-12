@@ -98,6 +98,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  transition: background-image 0.5s ease-in-out; /* Smooth transition for the background change */
+}
+.headingWrapper:hover {
+  background-image: linear-gradient(to bottom, rgba(251, 93, 44, 1), #2D4DCE);
 }
 .frameWrapper,
 .howToPlayChild {
