@@ -34,7 +34,18 @@
 .link {
   line-height: 150%;
   font-weight: 600;
+  font-size: larger;
+  
 }
+
+.link:hover {
+  transition: background-image 0.5s ease-in-out, -webkit-text-fill-color 0.5s ease-in-out; /* Smooth transition for the background and text color change */
+  background-image: linear-gradient(to bottom, rgb(243, 103, 9), #4669f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 
 .column,
 .column1 {
