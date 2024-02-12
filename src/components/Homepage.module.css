@@ -144,16 +144,14 @@
 .headingWrapper {
   border-radius: var(--br-xs);
   display: flex;
-  flex-direction: row;
+  
   align-items: center;
   justify-content: center;
   padding: var(--padding-xs) var(--padding-17xl);
   background-image: url(/public/frame-340@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
-  margin-left: -30px;
-    
+  background-position: top;  
 }
 
 .frameContainer,
@@ -167,7 +165,6 @@
 .frameWrapper {
   position: absolute;
   top: 220px;
-  left: 606px;
   text-align: left;
   font-size: var(--font-size-29xl);
   color: var(--color-lavender);
