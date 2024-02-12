@@ -75,12 +75,19 @@
 }
 
 .mingcutetelegramFillIcon {
-  width: 24px;
+  width: 30px;
   position: relative;
-  height: 24px;
+  height: 30px;
   overflow: hidden;
   flex-shrink: 0;
 }
+/* Add hover effect to links inside .mingcutetelegramFillParent */
+.mingcutetelegramFillParent a:hover {
+  transition: background-image 0.5s ease-in-out, -webkit-text-fill-color 0.5s ease-in-out; /* Smooth transition for the background and text color change */
+  background: linear-gradient(to bottom, rgb(243, 103, 9), #4669f3);
+  -webkit-text-fill-color: transparent;
+}
+
 
 .mingcutetelegramFillParent {
   display: flex;
@@ -232,3 +239,17 @@
   color: var(--color-gray-100);
   font-family: var(--font-hubot-sans);
 }
+.group981Parent {
+  position: relative;
+}
+.group981Parent::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -50%; /* Extend to the left */
+  width: 200%; /* Extend to cover both left and right sides */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Adjust the opacity as needed */
+  z-index: -1; /* Ensure the pseudo-element stays behind the content */
+}
+
