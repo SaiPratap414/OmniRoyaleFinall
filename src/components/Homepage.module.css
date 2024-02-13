@@ -40,7 +40,7 @@
 
 .link:hover {
   transition: background-image 0.5s ease-in-out, -webkit-text-fill-color 0.5s ease-in-out; /* Smooth transition for the background and text color change */
-  background-image: linear-gradient(to bottom, rgb(243, 103, 9), #4669f3);
+  background-image: linear-gradient(to bottom, rgb(243, 103, 9), #FA5D2E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -81,13 +81,6 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-/* Add hover effect to links inside .mingcutetelegramFillParent */
-.mingcutetelegramFillParent a:hover {
-  transition: background-image 0.5s ease-in-out, -webkit-text-fill-color 0.5s ease-in-out; /* Smooth transition for the background and text color change */
-  background: linear-gradient(to bottom, rgb(243, 103, 9), #4669f3);
-  -webkit-text-fill-color: transparent;
-}
-
 
 .mingcutetelegramFillParent {
   display: flex;
@@ -253,3 +246,16 @@
   z-index: -1; /* Ensure the pseudo-element stays behind the content */
 }
 
+.mingcutetelegramFillParent a:hover .mingcutetelegramFillIcon {
+  filter: invert(47%) sepia(95%) saturate(5063%) hue-rotate(349deg) brightness(98%) contrast(96%);
+}
+
+/* Add transition for smooth color change */
+.mingcutetelegramFillIcon {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+  transition: filter 0.5s ease-in-out; /* Smooth transition for color change */
+}
