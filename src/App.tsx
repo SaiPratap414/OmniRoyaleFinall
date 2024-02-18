@@ -1,16 +1,23 @@
-import { useEffect } from "react";
-import {
-  Routes,
-  Route,
-  useNavigationType,
-  useLocation,
-} from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Routes, Route, useNavigationType, useLocation } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
+import MobileSite from "./pages/MobileSite";
 
 function App() {
   const action = useNavigationType();
   const location = useLocation();
   const pathname = location.pathname;
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 500); // Adjust the width threshold as needed
+    };
+
+    handleResize(); // Initial check
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     if (action !== "POP") {
@@ -26,6 +33,9 @@ function App() {
       case "/":
         title = "";
         metaDescription = "";
+        break;
+      // Add more cases if needed
+      default:
         break;
     }
 
@@ -45,7 +55,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<LandingPage />} />
+      <Route path="/" element={isMobile ? <MobileSite /> : <LandingPage />} />
     </Routes>
   );
 }
