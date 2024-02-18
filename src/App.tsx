@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 500); // Adjust the width threshold as needed
+      setIsMobile(window.innerWidth <= 1100); // Adjust the width threshold as needed
     };
 
     handleResize(); // Initial check
