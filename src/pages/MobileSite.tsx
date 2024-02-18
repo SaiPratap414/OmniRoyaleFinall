@@ -13,9 +13,15 @@ const MobileSite: FunctionComponent = () => {
         <div className={styles.followUsHereParent}>
           <div className={styles.followUsHere}>follow us here</div>
           <div className={styles.vectorParent}>
-            <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-            <img className={styles.vectorIcon} alt="" src="/subtract.svg" />
-          </div>
+  <a href="https://t.me/+GoPViNZPXcFhYThl" target="_blank" rel="noopener noreferrer">
+    <img className={styles.vectorIcon} alt="Telegram" src="/vector.svg" />
+  </a>
+  <a href="https://twitter.com/omnicatroyale" target="_blank" rel="noopener noreferrer">
+    <img className={styles.vectorIcon} alt="twitter" src="/subtract.svg" />
+  </a>
+  {/* Add more social media links as needed */}
+</div>
+
         </div>
       </div>
     </div>
