@@ -50,7 +50,7 @@ const GameFeaturesContainer: FunctionComponent = () => {
               />
               <div className={styles.frameContainer}>
                 <div className={styles.vectorGroup}>
-                  <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+                  <img className={styles.vectorIcon} alt="" src="/mayhem.png" />
                   <b className={styles.heading1}>Multi-Chain Mayhem</b>
                 </div>
                 <div className={`${styles.text} ${styles['shake-text']}`}>
